@@ -2,6 +2,7 @@
 
 ## 📝 题目描述
 请使用 React 或 Vue 实现一个通用的 Tab 标签页组件，支持以下功能：
+<img src="../../public/tab.png" alt="tab" style="width: 50%;">
 
 ## ✅ 基础要求
 - 支持多个标签页切换显示内容
