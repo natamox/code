@@ -3,6 +3,7 @@
 ## 背景
 
 在企业项目中，Message（轻提示）组件是非常常见的 UI 反馈组件，用于在用户操作后给予及时反馈。请实现一个功能完善的 Message 组件，并支持以下进阶功能。
+<img src="../../public/message.png" alt="message" style="width: 50%;">
 
 ## 要求
 
@@ -25,6 +26,8 @@ messageApi('This is a success message', {
 
 ### 进阶功能
 
+* 相同内容的 Message 在 2 秒内重复调用不再展示（防抖）
+* 最多同时展示 3 条 Message，如果超过 3 条，则放入等待队列，等已有的 Message 消失后再展示
 * 支持通过 position 参数设置 Message 出现的位置，包含以下几种：
   - top-left
   - top-right
@@ -32,5 +35,3 @@ messageApi('This is a success message', {
   - bottom-left
   - bottom-right
   - bottom-center
-* 相同内容的 Message 在 2 秒内重复调用不再展示（防抖）
-* 最多同时展示 3 条 Message，如果超过 3 条，则放入等待队列，等已有的 Message 消失后再展示
